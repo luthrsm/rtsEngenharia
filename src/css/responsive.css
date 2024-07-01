@@ -1,0 +1,757 @@
+@media screen and (max-width: 1440px) {
+
+  /*navbar*/
+  header {
+    margin-left: 2rem;
+    max-width: auto !important;
+  }
+
+  .container {
+    max-width: auto !important;
+  }
+
+  /*sobre nós*/
+  .txtSobre {
+    margin-top: 10%;
+  }
+
+  /*servicos*/
+  .card-wrapper {
+    margin-left: 25rem;
+    margin-top: -24rem;
+  }
+
+  .txtServicos {
+    width: 26rem !important;
+    padding-top: 5rem;
+  }
+
+  /*galery*/
+  .content {
+    margin-left: 0;
+  }
+
+  /*scrollTop*/
+  .scrollTop {
+    right: 10rem;
+  }
+
+  /*contato*/
+
+}
+
+/*navbar*/
+@media(max-width:1500px) {
+  header .navigation {
+    display: none;
+  }
+
+  header .hamburguer {
+    display: block;
+    position: absolute;
+    right: 1rem;
+  }
+
+  header .light-mode {
+    position: absolute;
+    right: 3rem;
+  }
+
+  header ul {
+    left: 0;
+  }
+
+  .scrollTop {
+    right: 2rem;
+  }
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /*navbar*/
+  header ul {
+    font-size: 1.1rem !important;
+    white-space: nowrap;
+  }
+
+
+
+  /*home*/
+  .imgHome {
+    width: 900px;
+  }
+
+  .txtHome h1 {
+    font-size: 3.5rem;
+  }
+
+  .txtHome {
+    left: 1.5rem;
+  }
+
+  /*sobre*/
+  .imgAbout {
+    height: 450px;
+    width: 500px;
+    margin-top: 7rem;
+  }
+
+  .txtSobre {
+    position: relative;
+    width: 27em;
+    margin-top: 7rem;
+    margin-left: 5%;
+  }
+
+  /*servicos*/
+  .servicos {
+    top: 7rem;
+    height: 38rem;
+  }
+
+  .txtServicos {
+    margin-left: 1.5rem;
+    position: relative;
+    top: -9rem;
+    width: 100rem !important;
+  }
+
+  .card-wrapper {
+    margin-left: 1.5rem;
+    margin-top: -10.2rem;
+  }
+
+  .card {
+    width: 300px;
+    height: 425px;
+  }
+
+  .card-body h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 10px;
+  }
+
+  .manu {
+    margin-top: -.675rem;
+  }
+
+  .real {
+    margin-top: 1.6rem;
+  }
+
+  .consult {
+    margin-top: 1.5rem;
+  }
+
+  /*reviews*/
+  .review {
+    top: 8rem;
+  }
+
+  .review .container,
+  .ourClients .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  /*clientes*/
+  .ourClients {
+    top: 12rem;
+    height: 32rem;
+  }
+
+  .clientes-wrapper {
+    margin-top: 1.5rem;
+  }
+
+  /*galeria*/
+  .galery {
+    top: 12rem;
+  }
+
+  .galery .container {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  /*scrollTop*/
+
+  .scrollTop {
+    right: 1rem !important;
+  }
+
+}
+
+
+
+@media screen and (max-width: 999px) {
+
+  /*home*/
+
+  .txtHome {
+    margin-left: 2rem;
+    top: -2rem;
+  }
+
+  .txtHome h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+
+  .txtHome p {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+  }
+
+  .imgHome {
+    left: rem;
+  }
+
+  .imgHome img {
+    height: 550px;
+    width: 500px;
+    position: relative;
+  }
+
+  /*sobre nós*/
+
+  .imgAbout img {
+    height: 550px;
+    width: 400px;
+    position: relative;
+    margin-left: 2rem;
+  }
+
+  .txtSobre {
+    position: relative;
+    width: 29em;
+    margin-top: -40%;
+    margin-left: 50%;
+  }
+
+  .txtSobre p {
+    font-size: 1.1rem;
+  }
+
+  .txtSobre h1 {
+    font-size: 3.5rem;
+  }
+
+  /*servicos*/
+
+  .servicos {
+    top: 3em;
+    height: 38rem;
+  }
+
+  .txtServicos {
+    position: relative;
+    top: -10rem;
+    left: 2rem;
+  }
+
+  .txtServicos h1 {
+    font-size: 3.5rem;
+  }
+
+  .card-wrapper {
+    margin-left: 2rem;
+    margin-top: -11rem;
+  }
+
+  .card {
+    width: 300px;
+    height: 425px;
+  }
+
+  .card-body .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-body p {
+    font-size: 1.1rem;
+    margin-top: -0.625rem;
+  }
+
+  .manu {
+    margin-top: -.675rem;
+  }
+
+  .real {
+    margin-top: 1.1rem;
+  }
+
+  .consult {
+    margin-top: 1.1rem;
+  }
+
+  /*avaliações*/
+
+  .review {
+    top: 1rem;
+    margin: 2rem;
+  }
+
+  .txtReview h1 {
+    font-size: 3.5rem;
+  }
+
+  .txtReview p {
+    font-size: .9rem;
+  }
+
+  /*clientes*/
+
+
+  .ourClients {
+    top: 2rem;
+  }
+
+  .txtClientes,
+  .clientes {
+    margin-left: 1.5rem;
+  }
+
+  button .control {
+    display: none;
+  }
+
+  /*galeria*/
+  .galery {
+    margin-top: -12.5rem;
+  }
+
+  .txtGalery {
+    margin-left: 1rem;
+  }
+
+  .content {
+    margin-left: 1rem;
+  }
+
+  /*footer*/
+  .footer-contacts img {
+    width: 300px;
+  }
+
+  footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer-subscriber h3 {
+    text-align: center;
+  }
+
+  .footer-social-media .footer-link {
+    height: 2.7rem;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /*home*/
+  #home h1 {
+    font-size: 3rem;
+  }
+
+  #home {
+    height: 29.9rem;
+  }
+
+  .imgHome {
+    width: 200px;
+    left: -5rem;
+    top: -1.5rem;
+  }
+
+  .txtHome {
+    width: 15rem;
+    z-index: 1;
+    left: -1rem;
+  }
+
+  /*sobre nos*/
+  .aboutUs {
+    margin-top: -10rem;
+  }
+
+  .imgAbout img {
+    width: 350px;
+    height: 600px;
+    margin-left: -.5rem;
+  }
+
+  .txtSobre {
+    margin-top: -52%;
+    margin-left: 49%;
+    width: 21rem;
+  }
+
+  .txtSobre h1 {
+    font-size: 3rem;
+  }
+
+  /*servicos*/
+  .servicos {
+    height: 56rem;
+  }
+
+  .card-wrapper {
+    margin-left: 3.5rem;
+  }
+
+  .card {
+    width: 250px;
+    height: 350px;
+  }
+
+  .card-img-top {
+    height: 20%;
+  }
+
+  .card .card-body h3 {
+    font-size: 1.2rem;
+  }
+
+  .card .card-body p {
+    font-size: .9rem;
+  }
+
+  .servicos h1 {
+    font-size: 3rem;
+  }
+
+  /*reviews*/
+
+  .txtReview h1 {
+    font-size: 3rem !important;
+  }
+
+  /*galery*/
+  .galery {
+    margin-top: -10rem;
+      height: 100%;
+  }
+    
+
+  /*footer*/
+
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .footer-contacts {
+    display: none;
+  }
+
+  .footer-social-media .footer-link {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .footer-social-media {
+    justify-content: center;
+  }
+
+  /*scrollTop*/
+  .scrollTop {
+    right: 59rem !important;
+  }
+
+  /*contato*/
+  .box {
+    width: 70% !important;
+    transform: translate(-55%) !important;
+  }
+}
+
+/*testimonial swiper*/
+@media screen and (min-width: 768px) {
+
+  .wrapper {
+    flex-direction: row;
+    padding: 30px 100px;
+  }
+
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+  }
+
+  .testi .swiper-slide-active .aside .name {
+    transform: translateX(-50px);
+  }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+  h1 {
+    font-size: 1.8rem !important;
+  }
+
+  p {
+    font-size: .9rem !important;
+  }
+
+  /*home*/
+  .imgHome img {
+    width: 300px;
+    height: 350px;
+    left: 4.5rem;
+  }
+
+  #home {
+    height: 18rem;
+  }
+
+  .txtHome p {
+    margin-top: .2rem;
+  }
+
+  .txtHome {
+    width: 7rem;
+  }
+
+  /*sobre*/
+
+  .imgAbout img {
+    width: 300px;
+    align-self: center;
+  }
+
+  .imgAbout {
+    margin-left: 15%;
+    width: 300px;
+    top: -5rem;
+  }
+
+  .txtSobre {
+    width: 24.5rem !important;
+    margin-top: -20%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /*servicos*/
+  .servicos {
+    height: 78rem;
+  }
+
+  .txtServicos {
+    width: 24.5rem !important;
+    margin-left: -1rem !important;
+  }
+
+  .card-wrapper {
+    margin-left: 1rem;
+  }
+
+  /*review*/
+
+  .txtReview,
+  .testi {
+    margin-left: -2.5rem;
+  }
+
+  .testi {
+    width: 24.5rem;
+  }
+
+  /*clientes*/
+
+  .txtClientes,
+  .clientes-wrapper {
+    margin-left: -.5rem;
+  }
+
+  .ourClients {
+    height: 27rem;
+    top: 4rem;
+      bottom: 4rem;
+  }
+
+  /*galeria*/
+  .txtGalery,
+  .content {
+    margin-left: -.5rem;
+  }
+
+    .galery{
+        top: 15rem;
+    }
+
+  /*footer*/
+  .footer-content {
+    gap: 2rem;
+  }
+
+  .footer-social-media .footer-link {
+    height: 2.75rem;
+    width: 3.5rem;
+    transform: scale(.85);
+  }
+
+  /*scrollTop*/
+
+  .scrollTop {
+    right: 3rem !important;
+  }
+
+  /*contato*/
+  .box {
+    width: 90% !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-58%) !important;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+  .container h1 {
+    font-size: 2rem !important;
+  }
+
+  /*home*/
+  .imgHome img {
+    width: 275px;
+    left: 3rem;
+    top: -.9rem;
+  }
+
+  .txtHome p {
+    font-size: .8rem !important;
+  }
+
+  /*sobre*/
+  .txtSobre,
+  .txtServicos {
+    width: 21.5rem !important;
+  }
+
+  /*review*/
+  .testi {
+    width: 350px;
+  }
+
+  .aside>p::before {
+    left: -.1rem;
+  }
+
+  .aside>p::after {
+    top: 3.3rem;
+    right: -.2rem;
+  }
+
+  /*footer*/
+  footer {
+    width: auto;
+  }
+
+  .footer-list {
+    display: none;
+  }
+
+  .footer-subscriber h3 {
+    font-size: 1.3rem;
+    white-space: nowrap;
+  }
+
+  .footer-social-media .footer-link {
+    transform: scale(.9);
+    width: 3.5rem;
+    height: 3rem;
+  }
+
+  .footer-social-media .footer-link i {
+    font-size: 2rem;
+  }
+
+  /*scrollTop*/
+  .scrollTop {
+    right: 5rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container h1 {
+    font-size: 1.5rem !important;
+  }
+
+  /*home*/
+  #home {
+    height: 15rem;
+  }
+
+  .txtHome {
+    margin-top: 17%;
+    margin-left: 1.5rem;
+    width: 15rem;
+  }
+
+  .txtHome p {
+    font-size: .7rem !important;
+  }
+
+  .imgHome img {
+    width: 225px;
+    top: -2.4rem;
+    left: 3.5rem;
+  }
+
+
+
+  /*sobre nós*/
+
+  .imgAbout img {
+    width: 225px;
+    left: -10%;
+  }
+
+  .imgAbout,
+  .imgHome {
+    width: 300px;
+  }
+
+  .txtSobre {
+    width: 18rem !important;
+  }
+
+  /*servicos*/
+  .txtServicos {
+    width: 20rem !important;
+  }
+
+  /*review*/
+  .testi {
+    width: 290px;
+  }
+
+  .content .item img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .footer-social-media .footer-link {
+    transform: scale(.8);
+  }
+
+  .scrollTop {
+    right: 2.6rem !important;
+  }
+
+  .box {
+    transform: translate(-60%) !important;
+  }
+}

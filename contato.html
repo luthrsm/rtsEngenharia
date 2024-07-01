@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="./src/css/contato.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+
+    <title>RTS ENGENHARIA ELÉTRICA</title>
+
+</head>
+
+<body>
+    <nav>
+        <header>
+            <li class="logo-text">
+                <img src="./src/img/logo.png" alt="RTS ENGENHARIA ELÉTRICA LOGO" class="logo" />
+            </li>
+
+            <ul class="navigation">
+                <li><a href="index.html#home">
+                        <p>home</p>
+                    </a></li>
+                <li><a href="index.html#sobre-nos">
+                        <p>sobre nós</p>
+                    </a></li>
+                <li><a href="index.html#servicos">
+                        <p>serviços</p>
+                    </a></li>
+                <li><a href="index.html#galeria">
+                        <p>galeria</p>
+                    </a></li>
+                <li class="contato"><a href="contato.html">
+                        <p>contate-nos</p>
+                    </a></li>
+            </ul>
+
+            <div class="hamburguer">
+                <i class="fa-solid fa-bars on" id="on"></i>
+            </div>
+            <div class="open">
+                <ul class="navigation1">
+                    <i class="fa-solid fa-xmark close"></i>
+                    <li><a href="index.html#home">
+                            <p>home</p>
+                        </a></li>
+                    <li><a href="index.html#sobre-nos">
+                            <p>sobre nós</p>
+                        </a></li>
+                    <li><a href="index.html#serviços">
+                            <p>serviços</p>
+                        </a></li>
+                    <li><a href="index.html#galeria">
+                            <p>galeria</p>
+                        </a></li>
+                    <li><a href="contato.html">
+                            <p>contate-nos</p>
+                        </a></li>
+                </ul>
+            </div>
+
+            <!--<div class="light-mode">
+                <input type="checkbox" class="checkbox" id="chk"/>
+                <label for="chk" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+
+            </div>-->
+
+
+
+        </header>
+    </nav>
+
+
+    <main>
+        <div class="box">
+            <h1>Entre em contato conosco</h1>
+            <form action="https://formsubmit.co/rts.engenharia@email.com" method="POST">
+                <div class="group">
+                    <input type="text" id="name" required />
+                    <label for="name">Nome</label>
+                </div>
+                <div class="group">
+                    <input type="email" id="email" required />
+                    <label for="email">Email</label>
+                </div>
+                <div class="group">
+                    <input type="text" id="assunto" required />
+                    <label for="assunto">Assunto</label>
+                </div>
+                <div class="group">
+                    <textarea placeholder="Mensagem..." rows="5" required></textarea>
+                </div>
+                <button type="submit" class="zoom-shadow">enviar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer id="contato">
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <img src="./src/img/logo.png" alt="">
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Navegue pelo site</h3>
+                </li>
+                <li><a href="#home" class="footer-link">
+                        <p>home</p>
+                    </a></li>
+                <li><a href="#sobre-nos" class="footer-link">
+                        <p>sobre nós</p>
+                    </a></li>
+                <li><a href="#serviços" class="footer-link">
+                        <p>serviços</p>
+                    </a></li>
+                <li><a href="#galeria" class="footer-link">
+                        <p>galeria</p>
+                    </a></li>
+                <li><a href="#contato" class="footer-link">
+                        <p>contate-nos</p>
+                    </a></li>
+            </ul>
+            <div class="footer-subscriber">
+                <h3>Entre em contato conosco!</h3>
+                <div class="footer-social-media">
+                    <a href="https://www.instagram.com/rts.engeletrica/" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="contato.html" class="footer-link" id="envelope">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/+5511985888279" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &#169 2023 all rights reserved
+        </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./src/js/navbar.js"></script>
+</body>
+
+</html>

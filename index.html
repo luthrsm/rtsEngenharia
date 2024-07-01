@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+
+
+    <title>RTS ENGENHARIA ELÉTRICA</title>
+</head>
+
+<body>
+    <nav>
+        <header>
+            <li class="logo-text">
+                <img src="./src/img/logo.png" alt="RTS ENGENHARIA ELÉTRICA LOGO" class="logo" />
+            </li>
+
+            <ul class="navigation">
+                <li><a href="#home">
+                        <p>home</p>
+                    </a></li>
+                <li><a href="#sobre-nos">
+                        <p>sobre nós</p>
+                    </a></li>
+                <li><a href="#servicos">
+                        <p>serviços</p>
+                    </a></li>
+                <li><a href="#galeria">
+                        <p>galeria</p>
+                    </a></li>
+                <li class="contato"><a href="#contato">
+                        <p>contate-nos</p>
+                    </a></li>
+            </ul>
+
+            <div class="hamburguer">
+                <i class="fa-solid fa-bars on" id="on"></i>
+            </div>
+            <div class="open">
+                <ul class="navigation1">
+                    <i class="fa-solid fa-xmark close"></i>
+                    <li><a href="#home">
+                            <p>home</p>
+                        </a></li>
+                    <li><a href="#sobre-nos">
+                            <p>sobre nós</p>
+                        </a></li>
+                    <li><a href="#serviços">
+                            <p>serviços</p>
+                        </a></li>
+                    <li><a href="#galeria">
+                            <p>galeria</p>
+                        </a></li>
+                    <li><a href="#contato">
+                            <p>contate-nos</p>
+                        </a></li>
+                </ul>
+            </div>
+
+            <!--<div class="light-mode">
+                <input type="checkbox" class="checkbox" id="chk"/>
+                <label for="chk" class="label">
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                    <div class="ball"></div>
+                </label>
+
+            </div>-->
+
+
+
+        </header>
+    </nav>
+
+    <main>
+        <div class="home">
+            <div class="container" id="home">
+                <div class="txtHome">
+                    <h1>Serviços Eletricos de Qualidade</h1>
+                    <p>Conte com especialistas da área de serviços elétricos com anos de experiência.</p>
+                </div>
+                <div class="imgHome">
+                    <img src="./src/img/Electrician-cuate.svg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div class="aboutUs">
+            <div class="container" id="sobre-nos">
+                <div class="imgAbout">
+                    <img src="./src/img/Electrician-amico.svg" alt="" />
+                </div>
+                <div class="txtSobre">
+                    <h1>Sobre nós</h1>
+                    <p>A RTS Engenharia Elétrica, fundada em 2016, destaca-se como uma empresa especializada em
+                        instalação e manutenção elétrica. Com expertise consolidada, assumimos responsabilidade por
+                        diversas alterações, reparos e manutenções elétricas em construções. Nosso serviço é amplamente
+                        requisitado por construtoras, empreiteiras e empresas de engenharia, além de atender às
+                        necessidades de consumidores em residências e escritórios. Contribuímos também para o setor
+                        público, colaborando na manutenção e desenvolvimento de obras governamentais, consolidando nosso
+                        compromisso com a excelência e segurança elétrica.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="servicos">
+            <div class="container" id="servicos">
+                <div class="txtServicos">
+                    <h1>Nossos Serviços</h1>
+                    <p>Confira os serviços que nós prestamos.</p>
+                </div>
+            </div>
+            <div class="card-wrapper">
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./src/img/electric-meter_4544618 (2).png" alt="" class="card-img-top" />
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Manutenção e Prestação de Serviços
+                            </h3>
+                            <p>Manutenção e serviços especializados para garantir a eficiência e durabilidade de
+                                equipamentos e sistemas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./src/img/budget_3511360.png" alt="" class="card-img-top" />
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Realização de Orçamentos
+                            </h3>
+                            <p>Orçamentos precisos para planejar e controlar seus gastos com transparência e
+                                confiabilidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <img src="./src/img/consultation_1469884.png" alt="" class="card-img-top" />
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                Consultoria de Projetos
+                            </h3>
+                            <p>Consultoria estratégica em projetos, oferecendo insights e orientações para maximizar
+                                eficiência e sucesso.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!--<div class="review">
+            <div class="container" >
+                <div class="txtReview">
+                    <h1>Avaliações de Nossos Clientes</h1>
+                    <p>Explore nossa seção de avaliações de clientes, onde experências reais ganham voz. Descubra confiança e qualidade através das palavras de quem já experimentou nossos serviços.</p>
+                </div>
+                <div class="testi">
+                    <div class="body swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide">
+                                <div class="wrapper">
+                                    <div class="thumbnail">
+                                        <img src="data:image/jpeg;base64,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"
+                                            alt="">
+                                    </div>
+                                    <div class="aside">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam accusamus
+                                            eius
+                                            ducimus incidunt maiores? Culpa dolor exercitationem voluptatem ullam.</p>
+                                        <div class="name">
+                                            <h4>Lorem Ipsum</h4>
+                                            <p>Profissao</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="swiper-slide">
+                                <div class="wrapper">
+                                    <div class="thumbnail">
+                                        <img src="data:image/jpeg;base64,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"
+                                            alt="">
+                                    </div>
+                                    <div class="aside">
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta veniam accusamus
+                                            eius
+                                            ducimus incidunt maiores? Culpa dolor exercitationem voluptatem ullam.</p>
+                                        <div class="name">
+                                            <h4>Lorem Ipsum</h4>
+                                            <p>Profissao</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
+        <div class="ourClients">
+            <div class="container">
+                <div class="txtClientes">
+                    <h1>Nossos Clientes</h1>
+                    <p>Conheça nossos clientes.</p>
+                </div>
+                <div class="container-clientes">
+                    <div class="clientes-wrapper">
+                        <div class="clientes">
+                            <div class="client current-client">
+                                <a href="https://www.hering.com.br"><img src="./src/img/hering.png" alt=""></a>
+                            </div>
+                            <div class="client current-client">
+                                <a
+                                    href="https://www.brooksfield.com.br/junior?gad_source=1&gclid=CjwKCAiAg9urBhB_EiwAgw88mY4Bl7MrUWAqsIZG_DVVhYUlejOCIhPiXW0UJDXerG9hCM6oZUiSvRoCau0QAvD_BwE">
+                                    <img src="./src/img/Brooksfield Junior.png" alt=""></a>
+                            </div>
+                            <div class="client current-client">
+                                <a href="https://www.hering.com.br"><img src="./src/img/khelf.png" alt=""></a>
+                            </div>
+                            <div class="client current-client">
+                                <a href=""><img src="./src/img/pbkids.png" alt=""></a>
+                            </div>
+                            <div class="client current-client">
+                                <a href="https://www.hering.com.br"><img src="./src/img/taniabulhoes.png" alt=""></a>
+                            </div>
+                            <div class="client current-client">
+                                <a href="https://www.hering.com.br"><img src="./src/img/wordwine.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="galery">
+            <div class="container" id="galeria">
+                <div class="txtGalery">
+                    <h1>Galeria</h1>
+                    <p>Confira algumas fotos de nosso trabalho.</p>
+                </div>
+                <section class="content">
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro1.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro2.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro3.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro5.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/tanialoja2.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/tanialoja3.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/tanialoja4.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/tanialoja1.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro6.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro4.jpg"" />
+                    </div>
+                    <div class=" item" tabindex="0">
+                        <img src="./src/img/wordwineloja.png.jpg" />
+                    </div>
+                    <div class="item" tabindex="0">
+                        <img src="./src/img/quadro7.jpg" />
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+    <article>
+        <button class="scrollTop" onclick="backTop()">
+            <i class="fa-solid fa-chevron-up"></i>
+        </button>
+    </article>
+    <footer id="contato">
+        <div class="footer-content">
+            <div class="footer-contacts">
+                <img src="./src/img/logo.png" alt="">
+            </div>
+            <ul class="footer-list">
+                <li>
+                    <h3>Navegue pelo site</h3>
+                </li>
+                <li><a href="#home" class="footer-link">
+                        <p>home</p>
+                    </a></li>
+                <li><a href="#sobre-nos" class="footer-link">
+                        <p>sobre nós</p>
+                    </a></li>
+                <li><a href="#serviços" class="footer-link">
+                        <p>serviços</p>
+                    </a></li>
+                <li><a href="#galeria" class="footer-link">
+                        <p>galeria</p>
+                    </a></li>
+                <li><a href="#contato" class="footer-link">
+                        <p>contate-nos</p>
+                    </a></li>
+            </ul>
+            <div class="footer-subscriber">
+                <h3>Entre em contato conosco!</h3>
+                <div class="footer-social-media">
+                    <a href="https://www.instagram.com/rts.engeletrica/" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="contato.html" class="footer-link" id="envelope">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://wa.me/+5511985888279" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <div class="footer-copyright">
+            &#169 2023 all rights reserved
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./src/js/swiper.js"></script>
+    <script src="./src/js/scrollTop.js"></script>
+    <script src="./src/js/navbar.js"></script>
+
+
+</body>
+
+</html>
